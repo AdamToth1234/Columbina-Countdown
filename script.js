@@ -2,7 +2,7 @@ const daysSpan = document.querySelector(".days").firstElementChild
 const hoursSpan = document.querySelector(".hours").firstElementChild
 const minutesSpan = document.querySelector(".minutes").firstElementChild
 const secondsSpan = document.querySelector(".seconds").firstElementChild
-const quotes = ['"Do not believe in what you can see. What truly matters is what you cannot."', '"The moon can be treacherous."']
+const quotes = ['"Do not believe in what you can see. What truly matters is what you cannot."', '"The moon can be treacherous."', '"If mortals can turn to the gods when they are powerless... then who do the gods turn to when they have nothing left to give?"']
 
 document.querySelector("p").innerHTML = quotes[Math.floor(Math.random() * quotes.length)]
 
